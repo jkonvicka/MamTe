@@ -12,6 +12,18 @@
 		DD600D322C5D30090044B068 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD600D312C5D30090044B068 /* Item.swift */; };
 		DD600D342C5D30090044B068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD600D332C5D30090044B068 /* Assets.xcassets */; };
 		DD600D372C5D30090044B068 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD600D362C5D30090044B068 /* Preview Assets.xcassets */; };
+		DD600D3E2C5D36620044B068 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD600D3D2C5D36620044B068 /* EventView.swift */; };
+		DD600D402C5D36CD0044B068 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD600D3F2C5D36CD0044B068 /* EventsView.swift */; };
+		DD600D442C5D3A120044B068 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD600D432C5D3A120044B068 /* Event.swift */; };
+		DD600D462C5D3C350044B068 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD600D452C5D3C350044B068 /* Color.swift */; };
+		DD600D4A2C5D48E10044B068 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD600D492C5D48E10044B068 /* ChatView.swift */; };
+		DD600D4C2C5D48EA0044B068 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD600D4B2C5D48EA0044B068 /* ChatsView.swift */; };
+		DD600D4E2C5D4A1C0044B068 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD600D4D2C5D4A1C0044B068 /* Chat.swift */; };
+		DD600D522C5D4A450044B068 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD600D512C5D4A450044B068 /* User.swift */; };
+		DD600D542C5D4A9F0044B068 /* UserTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD600D532C5D4A9F0044B068 /* UserTag.swift */; };
+		DD600D562C5D71A20044B068 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD600D552C5D71A20044B068 /* Message.swift */; };
+		DD600D592C5D762B0044B068 /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD600D582C5D762B0044B068 /* ConnectionView.swift */; };
+		DD600D5B2C5D76360044B068 /* ConnectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD600D5A2C5D76360044B068 /* ConnectionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +33,18 @@
 		DD600D312C5D30090044B068 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		DD600D332C5D30090044B068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD600D362C5D30090044B068 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD600D3D2C5D36620044B068 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		DD600D3F2C5D36CD0044B068 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		DD600D432C5D3A120044B068 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		DD600D452C5D3C350044B068 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		DD600D492C5D48E10044B068 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		DD600D4B2C5D48EA0044B068 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
+		DD600D4D2C5D4A1C0044B068 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		DD600D512C5D4A450044B068 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DD600D532C5D4A9F0044B068 /* UserTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTag.swift; sourceTree = "<group>"; };
+		DD600D552C5D71A20044B068 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		DD600D582C5D762B0044B068 /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		DD600D5A2C5D76360044B068 /* ConnectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +77,14 @@
 		DD600D2C2C5D30090044B068 /* MamTe */ = {
 			isa = PBXGroup;
 			children = (
+				DD600D422C5D39F60044B068 /* View */,
+				DD600D412C5D39D60044B068 /* DomainObject */,
 				DD600D2D2C5D30090044B068 /* MamTeApp.swift */,
 				DD600D2F2C5D30090044B068 /* ContentView.swift */,
 				DD600D312C5D30090044B068 /* Item.swift */,
 				DD600D332C5D30090044B068 /* Assets.xcassets */,
 				DD600D352C5D30090044B068 /* Preview Content */,
+				DD600D452C5D3C350044B068 /* Color.swift */,
 			);
 			path = MamTe;
 			sourceTree = "<group>";
@@ -68,6 +95,55 @@
 				DD600D362C5D30090044B068 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD600D412C5D39D60044B068 /* DomainObject */ = {
+			isa = PBXGroup;
+			children = (
+				DD600D432C5D3A120044B068 /* Event.swift */,
+				DD600D4D2C5D4A1C0044B068 /* Chat.swift */,
+				DD600D512C5D4A450044B068 /* User.swift */,
+				DD600D532C5D4A9F0044B068 /* UserTag.swift */,
+				DD600D552C5D71A20044B068 /* Message.swift */,
+			);
+			path = DomainObject;
+			sourceTree = "<group>";
+		};
+		DD600D422C5D39F60044B068 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD600D572C5D76050044B068 /* Connection */,
+				DD600D482C5D48C10044B068 /* Chat */,
+				DD600D472C5D48AD0044B068 /* Event */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD600D472C5D48AD0044B068 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				DD600D3D2C5D36620044B068 /* EventView.swift */,
+				DD600D3F2C5D36CD0044B068 /* EventsView.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		DD600D482C5D48C10044B068 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				DD600D492C5D48E10044B068 /* ChatView.swift */,
+				DD600D4B2C5D48EA0044B068 /* ChatsView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		DD600D572C5D76050044B068 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				DD600D582C5D762B0044B068 /* ConnectionView.swift */,
+				DD600D5A2C5D76360044B068 /* ConnectionsView.swift */,
+			);
+			path = Connection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +217,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD600D302C5D30090044B068 /* ContentView.swift in Sources */,
+				DD600D402C5D36CD0044B068 /* EventsView.swift in Sources */,
+				DD600D4C2C5D48EA0044B068 /* ChatsView.swift in Sources */,
+				DD600D4E2C5D4A1C0044B068 /* Chat.swift in Sources */,
+				DD600D462C5D3C350044B068 /* Color.swift in Sources */,
 				DD600D322C5D30090044B068 /* Item.swift in Sources */,
+				DD600D4A2C5D48E10044B068 /* ChatView.swift in Sources */,
+				DD600D542C5D4A9F0044B068 /* UserTag.swift in Sources */,
 				DD600D2E2C5D30090044B068 /* MamTeApp.swift in Sources */,
+				DD600D562C5D71A20044B068 /* Message.swift in Sources */,
+				DD600D592C5D762B0044B068 /* ConnectionView.swift in Sources */,
+				DD600D442C5D3A120044B068 /* Event.swift in Sources */,
+				DD600D5B2C5D76360044B068 /* ConnectionsView.swift in Sources */,
+				DD600D3E2C5D36620044B068 /* EventView.swift in Sources */,
+				DD600D522C5D4A450044B068 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
